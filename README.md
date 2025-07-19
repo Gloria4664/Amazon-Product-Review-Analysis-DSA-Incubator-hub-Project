@@ -1,7 +1,7 @@
 # Amazon-Product-Review-Analysis-DSA-Incubator-hub-Project
-A comprehensive Excel focused analytical project on Amazon product reviews, discounts,and prices. My very first data analysis project with DSA (incubator hub). This project requires the usage of pivot tables, slicers, interactive dashboards and calculated fields to extract actionable insigts that will lead to a drive in the e-commerce world.
+##### A comprehensive Excel focused analytical project on Amazon product reviews, discounts,and prices. My very first data analysis project with DSA (incubator hub). This project requires the usage of pivot tables, slicers, interactive dashboards and calculated fields to extract actionable insigts that will lead to a drive in the e-commerce world.
 
-#### Objectives: Carry out analysis on Amazon products and review data inorder to extract actionabale business insights with the use of pivot table, slicers, calculated fields and data visualizations.
+ Objectives: Carry out analysis on Amazon products and review data inorder to extract actionabale business insights with the use of pivot table, slicers, calculated fields and data visualizations.
 
 ## Project Context
 **Company Name**: RetailTech Insights
@@ -45,8 +45,47 @@ A comprehensive Excel focused analytical project on Amazon product reviews, disc
 | 13 | Which categories have products with the highest discounts | sorted pivot table by discount % |
 | 14 |Identify the top 5 products in terms of rating and number of reviews combined | Ranking formula using **SUM**( rating plus review counting) |
 
+## Analysed Files
+
+[Amazon product review dashboard.xlsx](https://github.com/user-attachments/files/21327597/Amazon.product.review.dashboard.xlsx)
+
+### Visuals and Dashboard
+
+<img width="1325" height="445" alt="dashboard 2" src="https://github.com/user-attachments/assets/a84ce2d7-1fe5-48f8-be62-d33dea297246" />
+
+<img width="1346" height="532" alt="Insight table" src="https://github.com/user-attachments/assets/dcb574cb-ab54-4ced-8ec1-bd790082b32c" />
+
+<img width="1353" height="479" alt="Raw Data" src="https://github.com/user-attachments/assets/382d587a-8f9c-42d3-9ab4-e345adb9a771" />
+
+### Key Highlights deduced from the dashboard:
++ **Discount vs rating**: discount products don't always have higher rating.
++ **Revenue**: categories like home kitchen and electonics tend to generate more revenue.
++ **Discount percentage**: Health and home products tends to offer more discounts
++ **Reviews**: the total number of products with review less than 1000 is 308
++ **Top 5 Products**: analysis based on high review count and strong rating(e.g, AmazonsBasics FI, RealmeX, etc)
+
+## Skills and competency applied
++ **Data cleaning**: removed nulls, corrected inconsistent formats and trimmed texts.
++ **Data aggregation**: used pivot tables and grouping to summarise key insights.
++ **Excel Formulas**: utilized _IF_, _COUNTIF_, _AVERAGEIF_, _PROPER_, and _calculated columns_ functions.
++ **Visualization**: visualized with bar chart, pie chard, line chart, and scattered chard
++ **Slicers**: Enabled dynamic filtering and KPI display.
++ **Business Reasoning**: deducted conclusion based on data and business logic
+
+## Buiness Insights(Summary)
+1. Product with moderate ratings but high reviews may benefit from improved quality and targeted feedback campaigns
+2. Few products drive massive engagement. Promoting products like this helps in cross-selling
+3. Electonics has the most reviews
+4. A lot of discounted products received poor rating which implies that price cut alone can't satisfy customers.
+5. Marketing should more focused on product low sales and ratings
+
+## Tools and Environment.
+
+**Microsoft Excel**
++ Pivot tables
++ Data visualization(Bar, scattered, line and pie chart.)
++ Slicers and filters
++ Conditional formatting.
++ Name Ranges and Table Referencing.
 
 
-
-   
-  
